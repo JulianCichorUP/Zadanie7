@@ -4,9 +4,11 @@ def mul(*num):
         wyn *= n
     return wyn
 
+
 def kw(**war):
     for w in war:
         print(w)
 
-print(mul(3,4,5,10))
-print("Python","to","fajny","język","!")
+
+print(mul(3, 4, 5, 10))
+print("Python", "to", "fajny", "język", "!")
